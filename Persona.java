@@ -1,4 +1,4 @@
-package Clases.ConcursoAltares;
+package proyects.Sistemas.proyectos.concursoAltares;
 
 public class Persona {
     // atributos de la clase padre
@@ -11,6 +11,10 @@ public class Persona {
         this.edad = 0;
     }
 
+    public Persona(String nombre){
+        this.nombre = nombre;
+        this.edad = 0;
+    }
     /**
      * @param nombre
      * @param edad
