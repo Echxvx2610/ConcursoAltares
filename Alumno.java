@@ -1,4 +1,4 @@
-package Clases.ConcursoAltares;
+package proyects.Sistemas.proyectos.concursoAltares;
 
 public class Alumno extends Persona {
     // atributos propios de la clase hija
