@@ -1,4 +1,4 @@
-package Clases.ConcursoAltares;
+package proyects.Sistemas.proyectos.concursoAltares;
 
 public class Docente extends Persona {
 
@@ -7,6 +7,9 @@ public class Docente extends Persona {
         super(); // atributos de la superclase Persona
     }
 
+    public Docente(String nombre) {
+        super(nombre);
+    }
     /**
      * @param nombre
      * @param edad
