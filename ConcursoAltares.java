@@ -92,8 +92,10 @@ public class ConcursoAltares {
                     break;
                 case 3: // llamar al método calificarEquipos si elije 3
                     sc.nextLine(); // Limpia el buffer
-                    System.out.println("Ingrese el nombre del equipo a calificar (o 0 para salir): ");
-                    String nombreEquipo = sc.nextLine();
+                    System.out.println("Ingrese el nombre del equipo a calificar (o 0 para cancelar): ");
+                    if (sc.nextLine().equals("0")) {
+                        break;
+                    }
                     System.out.println("Ingrese la calificación para el equipo (0-100): ");
                     double calificacion = sc.nextDouble();
                     if (calificacion >= 0 && calificacion <= 100) {
