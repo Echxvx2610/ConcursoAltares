@@ -1,7 +1,8 @@
-package proyects.Sistemas.proyectos.concursoAltares;
+package Sistemas_comp.ConcursoAltares;
+
 import java.util.ArrayList;
 
-public class Equipo{
+public class Equipo {
     // atributos de la clase
     private String nombreEquipo;
     private String personaje;
@@ -77,24 +78,19 @@ public class Equipo{
 
     public String toString() {
         StringBuilder sb = new StringBuilder();
-    
         // Encabezado
         sb.append("--------------------------------------------------------------\n");
         sb.append("Nombre del equipo: ").append(nombreEquipo).append("  Personaje: ").append(personaje).append("  Puntaje: ").append(puntaje).append("\n");
         sb.append("--------------------------------------------------------------\n");
-    
         // Encabezado de la tabla de alumnos
-        sb.append(String.format("%-15s%-15s%-15s%-13s%-10s\n", "Docente", "Alumnos", "Carrera", "No_Control","Grupo"));
-        
+        sb.append(String.format("%-15s%-15s%-15s%-13s%-10s\n", "Docente", "Alumnos", "Carrera", "No_Control", "Grupo"));
         // Datos de docente
-        sb.append(String.format("%-15s%-15s%-15s%-13s%-10s\n", docente.getNombre(), "", "", "",""));
-    
+        sb.append(String.format("%-15s%-15s%-15s%-13s%-10s\n", docente.getNombre(), "", "", "", ""));
         // Datos de alumnos
         for (Alumno alumno : alumnos) {
-            sb.append(String.format("%-15s%-15s%-15s%-13s%-10s\n", "", alumno.getNombre(), alumno.getCarrera(), alumno.getNumeroControl(),alumno.getGrupo()));
+            sb.append(String.format("%-15s%-15s%-15s%-13s%-10s\n", "", alumno.getNombre(), alumno.getCarrera(), alumno.getNumeroControl(), alumno.getGrupo()));
         }
         sb.append("--------------------------------------------------------------\n");
         return sb.toString();
     }
-    
 }

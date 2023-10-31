@@ -1,4 +1,4 @@
-package proyects.Sistemas.proyectos.concursoAltares;
+package Sistemas_comp.ConcursoAltares;
 
 public class Alumno extends Persona {
     // atributos propios de la clase hija
@@ -56,9 +56,6 @@ public class Alumno extends Persona {
 
     @Override
     public String toString() {
-        return "Datos del alumno: \n" + super.toString() +
-                "Número de control: " + numeroControl + "\n" +
-                "Carrera: " + carrera + "\n" +
-                "Grupo: " + grupo + "\n";
+        return "Datos del alumno: \n" + super.toString() + "Número de control: " + numeroControl + "\n" + "Carrera: " + carrera + "\n" + "Grupo: " + grupo + "\n";
     }
 }

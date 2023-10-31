@@ -1,4 +1,4 @@
-package proyects.Sistemas.proyectos.concursoAltares;
+package Sistemas_comp.ConcursoAltares;
 
 public class Persona {
     // atributos de la clase padre
@@ -11,10 +11,11 @@ public class Persona {
         this.edad = 0;
     }
 
-    public Persona(String nombre){
+    public Persona(String nombre) {
         this.nombre = nombre;
         this.edad = 0;
     }
+
     /**
      * @param nombre
      * @param edad
@@ -44,7 +45,6 @@ public class Persona {
 
     @Override
     public String toString() {
-        return "Nombre: " + nombre + "\n" +
-                "Edad: " + edad + "\n";
+        return "Nombre: " + nombre + "\n" + "Edad: " + edad + "\n";
     }
 }
