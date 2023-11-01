@@ -118,7 +118,7 @@ public class ConcursoAltares {
         String nombreDocente = sc.nextLine();
         System.out.println("_______________________________________________________");
         System.out.println("Alumnos: ");
-        int numAlumnos = 2;
+        int numAlumnos = 5;
         ArrayList<Alumno> alumnos = new ArrayList<>(); // Crear una nueva lista de alumnos para este equipo
         for (int i = 0; i < numAlumnos; i++) {
             // Instancia de Alumno
