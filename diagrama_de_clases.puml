@@ -1,0 +1,104 @@
+@startuml Bibiblioteca
+'Relaciones
+Docente --|> Persona
+Alumno --|> Persona
+Equipo --> ConcursoAltares
+Docente --* Equipo
+Alumno --* Equipo
+
+
+title
+Diagrama de Clases Concurso Altares
+end title
+
+
+
+class ConcursoAltares{
+    'Variables globales'
+    + ArrayList alumnos 
+    + ArrayList equipos
+    + ArrayList docentes
+    + Scanner sc 
+    + int opcion
+    ---
+    'Metodos
+    + main()
+    + menu()
+    + registrarEquipo()
+    + listarEquipos()
+    + calificarEquiposPorNombre(String nombreEquipo, int calificacion)
+    + rankEquipos()
+}
+
+class Persona{
+    'Atributos
+    + String nombre
+    + int edad
+    ---
+    'Metodos
+    + Persona()
+    + Persona(String nombre, int edad)
+    + getNombre()
+    + getEdad()
+    + setNombre(String nombre)
+    + setEdad(int edad)
+    + toString()
+}
+class Alumno {
+    'Atributos
+    + String carrera
+    + String numeroControl
+    + String grupo 
+    ---
+    'Metodos
+    + Alumno()
+    + Alumno(String carrera, String numeroControl, String grupo)
+    + getCarrea()
+    + getNumeroControl()
+    + getGrupo()
+    + setCarrea(String carrera)
+    + setNumeroControl(String numeroControl)
+    + setGrupo(String grupo)
+    + toString()
+}
+class Docente{
+    'Atributos
+    + String nombre
+    + int edad
+    ---
+    'Metodos
+    + Docente()
+    + Docente(String nombre)
+    + Docente(String nombre, int edad)
+    + getNombre()
+    + getEdad()
+    + setNombre(String nombre)
+    + setEdad(int edad)
+    + toString()
+}
+
+class Equipo{
+    'Atributos
+    + String nombreEquipo
+    + String personaje
+    + Docente docente
+    + ArrayList alumnos
+    + int puntaje
+    ---
+    'Metodos
+    + Equipo()
+    + Equipo(String nombreEquipo, String personaje, Docente docente)
+    + getNombre()
+    + getPersonaje()
+    + getDocente()
+    + getAlumnos()
+    + getPuntaje()
+    + setNombre(String nombreEquipo)
+    + setPersonaje(String personaje)
+    + setDocente(Docente docente)
+    + setAlumnos(ArrayList alumnos)
+    + setPuntaje(int puntaje)
+    + toString()
+}
+
+@enduml

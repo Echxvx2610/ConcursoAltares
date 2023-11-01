@@ -14,44 +14,47 @@ public class ConcursoAltares {
     static ArrayList<Equipo> equipos = new ArrayList<>();
     static ArrayList<Docente> docentes = new ArrayList<>();
     // arraylist de prueba
-    static ArrayList<Equipo> equipos_test = new ArrayList<>();
-    static ArrayList<Alumno> alumnos_test = new ArrayList<>();
-    static ArrayList<Alumno> alumnos_test2 = new ArrayList<>();
-    static ArrayList<Alumno> alumnos_test3 = new ArrayList<>();
+    // static ArrayList<Equipo> equipos_test = new ArrayList<>();
+    // static ArrayList<Alumno> alumnos_test = new ArrayList<>();
+    // static ArrayList<Alumno> alumnos_test2 = new ArrayList<>();
+    // static ArrayList<Alumno> alumnos_test3 = new ArrayList<>();
 
     public static void main(String[] args) {
         // equipos de prueba
-        alumnos_test.add(new Alumno("CRISTIAN", 21, "ING. SISTEMAS", "123456", "A"));
-        alumnos_test.add(new Alumno("FRANCISCO", 20, "ING. SISTEMAS", "123456", "B"));
-        alumnos_test.add(new Alumno("JESUS", 25, "ING. SISTEMAS", "123456", "C"));
-        alumnos_test.add(new Alumno("MIGUEL", 21, "ING. SISTEMAS", "123456", "A"));
-        alumnos_test.add(new Alumno("PEDRO", 20, "ING. SISTEMAS", "123456", "B"));
-        alumnos_test2.add(new Alumno("ALEJANDRO", 21, "ING. SISTEMAS", "123456", "A"));
-        alumnos_test2.add(new Alumno("ISRAEL", 20, "ING. SISTEMAS", "123456", "B"));
-        alumnos_test2.add(new Alumno("OSCAR", 25, "ING. SISTEMAS", "123456", "C"));
-        alumnos_test2.add(new Alumno("JOSE", 21, "ING. SISTEMAS", "123456", "A"));
-        alumnos_test2.add(new Alumno("EDUARDO", 20, "ING. SISTEMAS", "123456", "B"));
-        alumnos_test3.add(new Alumno("JUAN", 21, "ING. SISTEMAS", "123456", "A"));
-        alumnos_test3.add(new Alumno("CARLOS", 20, "ING. SISTEMAS", "123456", "B"));
-        alumnos_test3.add(new Alumno("LUIS", 25, "ING. SISTEMAS", "123456", "C"));
-        alumnos_test3.add(new Alumno("MIGUEL", 21, "ING. SISTEMAS", "123456", "A"));
-        alumnos_test3.add(new Alumno("PEDRO", 20, "ING. SISTEMAS", "123456", "B"));
-        // objetos de docente para prueba
-        Docente docente_1 = new Docente("LUIS CAMARENA");
-        Docente docente_2 = new Docente("OCTAVIO PARRA");
-        Docente docente_3 = new Docente("JUAN CARLOS");
-        // objetos de equipo para prueba
-        Equipo equipo_1 = new Equipo("DINOS", "Goku", docente_1, alumnos_test, 0);
-        Equipo equipo_2 = new Equipo("MAS CAPOS", "Vegeta", docente_2, alumnos_test2, 0);
-        Equipo equipo_3 = new Equipo("TEC", "Gohan", docente_3, alumnos_test3, 0);
-        // equipos_test.add(equipo_1);
-        // equipos_test.add(equipo_2);
-        // equipos_test.add(equipo_3);
-        equipos.add(equipo_1);
-        equipos.add(equipo_2);
-        equipos.add(equipo_3);
-        // System.out.println(equipo_1);
-        // System.out.println(equipo_2);
+        // alumnos_test.add(new Alumno("CRISTIAN", 21, "ING. SISTEMAS", "123456", "A"));
+        // alumnos_test.add(new Alumno("FRANCISCO", 20, "ING. SISTEMAS", "123456",
+        // "B"));
+        // alumnos_test.add(new Alumno("JESUS", 25, "ING. SISTEMAS", "123456", "C"));
+        // alumnos_test.add(new Alumno("MIGUEL", 21, "ING. SISTEMAS", "123456", "A"));
+        // alumnos_test.add(new Alumno("PEDRO", 20, "ING. SISTEMAS", "123456", "B"));
+        // alumnos_test2.add(new Alumno("ALEJANDRO", 21, "ING. SISTEMAS", "123456",
+        // "A"));
+        // alumnos_test2.add(new Alumno("ISRAEL", 20, "ING. SISTEMAS", "123456", "B"));
+        // alumnos_test2.add(new Alumno("OSCAR", 25, "ING. SISTEMAS", "123456", "C"));
+        // alumnos_test2.add(new Alumno("JOSE", 21, "ING. SISTEMAS", "123456", "A"));
+        // alumnos_test2.add(new Alumno("EDUARDO", 20, "ING. SISTEMAS", "123456", "B"));
+        // alumnos_test3.add(new Alumno("JUAN", 21, "ING. SISTEMAS", "123456", "A"));
+        // alumnos_test3.add(new Alumno("CARLOS", 20, "ING. SISTEMAS", "123456", "B"));
+        // alumnos_test3.add(new Alumno("LUIS", 25, "ING. SISTEMAS", "123456", "C"));
+        // alumnos_test3.add(new Alumno("MIGUEL", 21, "ING. SISTEMAS", "123456", "A"));
+        // alumnos_test3.add(new Alumno("PEDRO", 20, "ING. SISTEMAS", "123456", "B"));
+        // // objetos de docente para prueba
+        // Docente docente_1 = new Docente("LUIS CAMARENA");
+        // Docente docente_2 = new Docente("OCTAVIO PARRA");
+        // Docente docente_3 = new Docente("JUAN CARLOS");
+        // // objetos de equipo para prueba
+        // Equipo equipo_1 = new Equipo("DINOS", "Goku", docente_1, alumnos_test, 0);
+        // Equipo equipo_2 = new Equipo("MAS CAPOS", "Vegeta", docente_2, alumnos_test2,
+        // 0);
+        // Equipo equipo_3 = new Equipo("TEC", "Gohan", docente_3, alumnos_test3, 0);
+        // // equipos_test.add(equipo_1);
+        // // equipos_test.add(equipo_2);
+        // // equipos_test.add(equipo_3);
+        // equipos.add(equipo_1);
+        // equipos.add(equipo_2);
+        // equipos.add(equipo_3);
+        // // System.out.println(equipo_1);
+        // // System.out.println(equipo_2);
         control.menu();
     }
 
@@ -79,12 +82,12 @@ public class ConcursoAltares {
                 break;
             case 3: // llamar al método calificarEquipos si elije 3
                 sc.nextLine(); // Limpia el buffer
-                System.out.println("Ingrese el nombre del equipo a calificar (o 0 para cancelar): ");
+                System.out.print("Ingrese el nombre del equipo a calificar (o 0 para cancelar): ");
                 String nombreEquipo = sc.nextLine();
                 if (nombreEquipo.equals("0")) {
                     break;
                 }
-                System.out.println("Ingrese la calificación para el equipo (0-100): ");
+                System.out.print("Ingrese la calificación para el equipo (0-100): ");
                 double calificacion = sc.nextDouble();
                 if (calificacion >= 0 && calificacion <= 100) {
                     control.calificarEquipoPorNombre(nombreEquipo, (int) calificacion);
@@ -144,9 +147,13 @@ public class ConcursoAltares {
     }
 
     public void listaEquipos() {
-        for (Equipo equipo : equipos) {
-            System.out.println(equipo);
-            System.out.println("\n");
+        if (equipos.isEmpty()) {
+            System.out.println("No hay equipos registrados para mostrar.");
+        } else {
+            for (Equipo equipo : equipos) {
+                System.out.println(equipo);
+                System.out.println("\n");
+            }
         }
     }
 
@@ -181,6 +188,8 @@ public class ConcursoAltares {
                 Equipo equipo = equipos.get(i);
                 System.out.println("Posición " + (i + 1) + ": " + equipo.getNombreEquipo() + " - Puntaje: " + equipo.getPuntaje());
             }
+            System.out.println("\n");
         }
     }
+    // metodo limpiar pantalla
 } // fin de la función main
